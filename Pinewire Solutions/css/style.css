@@ -1,0 +1,122 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	background-color: rgb(213, 223, 235);
+}
+
+::-webkit-scrollbar
+{
+	width: 15px;	
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: linear-gradient(rgb(2, 46, 83) , rgb(160, 155, 155));
+	border-radius: 20px;
+}
+
+/*------navbar---------*/
+
+.navbar{background-color: transparent;}
+.bg-light{background-color: white !important;}
+.navbar-light .navbar-nav .nav-link{color: rgb(17, 83, 170);}
+
+/*--------End----------*/
+
+/*------carousel---------*/
+
+.carousel-caption{top: 40%;}
+
+.blue-line{width: 100px; background-color: rgb(17, 83, 170); height: 3px;}
+
+/*--------End----------*/
+
+.hero-text{font-size: 20px; font-weight: 600;}
+.media-body h5{color: rgb(17, 83, 170);}
+.media i{color: darkgray;}
+
+
+.item img{
+	-webkit-transition: 0.6 ease;
+	transition: 0.6s ease;
+}
+
+.item img:hover{
+	-webkit-transform: scale(1.1);
+     transform: scale(1.1);
+}
+
+.bg-gray{background-color: #E0DFDF;}
+
+
+.panel{background-color: white;}
+.panel-heading{padding: 10px 10px;}
+.panel-body{padding:10px;}
+.panel-title > a:before{
+	float: right !important;
+	font-family: FontAwesome;
+	content:"\f068";
+	padding-right: 5px;	
+}
+
+#services .row h1
+{
+	margin-top: 60px;
+}
+
+#projects .row h1
+{
+	margin-top: 60px;
+}
+
+#about .row h1
+{
+	margin-top: 60px;
+}
+
+.space h5
+{
+	margin-left: 7px;
+}
+
+.panel-title > a.collapsed:before{
+	float: right !important;
+	content: "\f067";
+}
+
+.panel-title > a:hover,
+.panel-title > a:active,
+.panel-title > a:focus {
+	text-decoration: none;
+}
+
+.contact{background: url(../img/about_image.png) no-repeat center center; background-attachment: fixed;}
+
+.contact-text{padding: 200px 10px;}
+
+footer
+{
+	background: #3f3f3f;
+	color: #ffff;
+}
+
+hr.light
+{
+	border-top: 1px solid #d5d5d5;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+hr.light-100
+{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
